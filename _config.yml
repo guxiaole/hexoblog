@@ -12,7 +12,7 @@ timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://guxiaole.github.io
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
@@ -74,3 +74,22 @@ deploy:
 
 plugins:
         - hexo-generator-feed
+
+
+#=============================================================================
+# NexT Theme configuration
+# =============================================================================
+
+# 多说帐号
+duoshuo_shortname: guxiaole
+
+# DISQUS 帐号 （如果已经设置 多说 帐号，此选项将被跳过）
+disqus_shortname: your-disqus-shortname
+
+# JiaThis 分享服务
+jiathis: true
+
+# 多说 分享服务（必须启用多说）
+duoshuo_share: 
+
+# 社交链接，将在侧栏中显示
